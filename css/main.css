@@ -36,6 +36,7 @@ a {
 a:hover {
   color: #E95853;
 }
+/*caja*/
 .link{
   font-weight: 700;
   padding: 21px;
@@ -47,7 +48,7 @@ a:hover {
 header{
   position: fixed;
   background: white;
-  width: 100%
+  width: 100%;
   top: 0;
 }
 .menu{
