@@ -1,4 +1,4 @@
-/*
+/* CURSOR: POINTED;
  * Ingresa el CSS del proyecto en este archivo
  */
 
@@ -92,11 +92,13 @@ header{
   padding: 70px 7px;
 }
 .box-services{
+  text-align: center;
   display: inline-block;
   width: 30%;
   margin-top: 63px;
 }
 .text-services{
+
   text-align: center;
   margin-top: 30px;
   font-size: 35px;
@@ -111,7 +113,72 @@ header{
   height: 1400px;
   border: 50px solid white;/*<3*/
   text-align: center;
- }
+  }
+.margen{
+  border-bottom: 50px solid white; 
+}
+
+
+
+/*Ejercicio guiado*/
+.box-services{
+  cursor: pointer;
+}
+
+/*.box-services:hover{
+  background-color: rgba(255,255,255,0.2);
+}*/
+
+/*Modal*/
+#box-services-modal{
+  background-color: red;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#box-services-modal .modal-body{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 100px;
+}
+
+#box-services-modal .modal-body h5,
+#box-services-modal .modal-body h6{
+  color: whitesmoke;
+}
+#box-services-modal .modal-body h5{
+  font-size: 2em;
+}
+#box-services-modal .modal-body h6{
+  font-size: 1em;
+}
+
+#box-services-modal .close{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+#box-services-modal .close img{
+  width: 60px;
+}
+
+.hide{
+  display: none;
+}
+
+
+
+
+
+
+
+
 
 
 
